@@ -1,2 +1,1 @@
-# twinLab-api-typescript
-twinLab TypeScript API
+# twinLab API TypeScript
