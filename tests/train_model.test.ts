@@ -2,7 +2,7 @@ import fs from "fs";
 
 import { trainModel } from "../api";
 
-let trainingParametersPath: string = "./../resources/input/biscuits/training_parameters.json";
+let trainingParametersPath: string = "resources/input/biscuits/training_parameters.json";
 let datasetId: string = "my-dataset";
 let processor: string = "cpu";
 

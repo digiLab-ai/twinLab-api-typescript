@@ -2,7 +2,7 @@ import fs from "fs";
 
 import { useModel } from "../api";
 
-let predictionInputPath: string = "./../resources/input/biscuits/prediction_input.csv";
+let predictionInputPath: string = "resources/input/biscuits/prediction_input.csv";
 let modelId: string = "my-model";
 let method: string = "predict";
 let processor: string = "cpu";
@@ -13,4 +13,4 @@ test("Use Model", async () => {
     await useModel(predictionInputCSV, modelId, method, processor).then((response) => {
         console.log(response);
     });
-});
+}, 10000);
