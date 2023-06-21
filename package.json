@@ -1,0 +1,24 @@
+{
+  "name": "twinlab",
+  "version": "0.0.0",
+  "description": "Train and use machine learning models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digiLab-ai/twinLab-api-typescript.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "api"
+  ],
+  "author": "Freddy Wordingham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digiLab-ai/twinLab-api-typescript/issues"
+  },
+  "homepage": "https://github.com/digiLab-ai/twinLab-api-typescript#readme"
+}
