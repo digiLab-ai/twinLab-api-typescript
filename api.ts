@@ -1,5 +1,4 @@
-import * as dotenv from "dotenv";
-dotenv.config({ path: __dirname + ".env" });
+require("dotenv").config();
 
 const TWINLAB_SERVER = process.env["TWINLAB_SERVER"]!;
 
