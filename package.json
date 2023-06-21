@@ -4,7 +4,7 @@
     "description": "Train and use machine learning models",
     "main": "api.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -23,7 +23,12 @@
     "homepage": "https://github.com/digiLab-ai/twinLab-api-typescript#readme",
     "dependencies": {
         "dotenv": "^16.3.1",
-        "ts-node": "^10.9.1",
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.2",
+        "jest": "^29.5.0",
+        "ts-jest": "^29.1.0",
         "typescript": "^5.1.3"
     }
 }
